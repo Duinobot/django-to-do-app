@@ -3,6 +3,8 @@
 <form method="POST" action="">
     {% csrf_token %}
     {{itemForm}}
+    <p>
     {{task}}
+    </p>
     <input type='submit' name='Update Task'>
 </form>
